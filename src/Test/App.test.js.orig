@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from '../App';
+
+<<<<<<< HEAD
+it('renders without crashing master branch', () => {
+=======
+it('renders without crashing the test feature', () => {
+>>>>>>> test-feature
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
